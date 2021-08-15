@@ -29,6 +29,8 @@ python FieldDay.py
 
 Pick teams of 2 or splitting teams right down the middle entering '2' or 's' respectively.
 
+A random team name pulled from TeamNames.txt will be assigned to each team for added fun.
+
 ```text
 Team size?
 s
