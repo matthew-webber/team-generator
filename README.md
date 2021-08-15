@@ -27,7 +27,7 @@ python FieldDay.py
 
 Pick teams of 2 or splitting teams right down the middle entering '2' or 's' respectively.
 
-```shell
+```text
 Team size?
 s
 Team The Frontline -- ['Brandon', 'Karamie', 'Molly', 'Jeramy', 'Chelsea', 'Kayla']
