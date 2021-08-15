@@ -1,6 +1,8 @@
 # team-generator
 Create randomized teams given a list of names for games, parties, events, etc.
 
+***Works great on [Pythonista](http://omz-software.com/pythonista/)!***
+
 ## Getting Started
 
 ### Setup
