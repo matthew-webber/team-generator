@@ -7,7 +7,9 @@ all_players = [name.strip() for name in players]
 inactive = [name for name in all_players if name[0].lower() == 'x']
 active = list(set(all_players) - set(inactive))
 
-if(len(active) % 2 != 0: print('******WARNING*******\nOdd number of players!\n**************'))
+if len(active) % 2 != 0:
+	print('******WARNING*******\nOdd number of players!\n**************')
+
 loop = True
 
 while loop:
@@ -47,9 +49,9 @@ while loop:
 	for i, team in enumerate(teams): 
 		print(f'Team {r.choice(team_names)} -- {list(team)}')
 
-	loop = input('To go again just hit enter, anything else to quit')
+	loop = input('To go again just hit enter, anything else to quit\n')
 
-	if loop.strip().lower() != ''
+	if loop.strip().lower() != '':
 		loop = False
 
 
